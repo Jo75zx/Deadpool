@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A sample webpage for Deadpool project" />
+    <meta name="keywords" content="Deadpool, sample, webpage, project" />
+    <meta name="author" content="Youssef" />
+    <meta property="og:title" content="Deadpool Project">
+    <meta property="og:description" content="A sample webpage for Deadpool project">
+    <meta property="og:image" content="./imgs/og-image.jpg">
+    <meta property="og:url" content="https://your-website-url.com">
+    <link href="./css/tailwind.css" rel="stylesheet" />
+    <link rel="icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <title>Deadpool Project</title>
+</head>
+
+<body class="bg-red-800 backdrop-brightness-50">
+    <header id="header" class="bg-red-800 top-0 z-10 shadow-black shadow-md">
+        <nav class="flex flex-col justify-between sm:mx-3 sm:flex-row">
+            <div class="flex w-full sm:w-1/3 sm:py-3 justify-center">
+                <a href="" class="flex justify-center">
+                    <img src="./imgs/Official-Deadpool-Logo-PNG-Photo.png" alt="Deadpool" class="w-1/2 sm:box-border">
+                </a>
+            </div>
+            <ul class="flex justify-between p-2">
+                <li class="flex justify-center items-center p-2">
+                    <a href="./index.html"
+                        class="font-ded text-2xl text-white hover:text-black transition duration-300 ease-in-out">Home</a>
+                </li>
+                <li class="flex justify-center items-center p-2">
+                    <a href="./index.html#movies"
+                        class="font-ded text-white hover:text-black transition duration-300 ease-in-out text-2xl">Movies</a>
+                </li>
+                <li class="flex justify-center items-center p-2">
+                    <a href="./index.html#products"
+                        class="font-ded text-white hover:text-black transition duration-300 ease-in-out text-2xl">Products</a>
+                </li>
+                <li class="flex justify-center items-center p-2">
+                    <a href="/build/trivia.html"
+                        class="font-ded text-white hover:text-black transition duration-300 ease-in-out text-2xl">Trivia</a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quiz"
+        class="flex flex-col items-center justify-center px-2 mt-36 relative scroll-mt-16 sm:my-32 min-h-screen">
+        <h2 class="text-3xl text-white font-ded mb-8">Deadpool Trivia Quiz</h2>
+        <form id="trivia-form" class="w-full max-w-lg bg-white p-6 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <p class="block text-black text-lg font-bold mb-2">1. Who plays Deadpool in the movies?</p>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question1" value="Ryan Reynolds">
+                        <span class="ml-2">Ryan Reynolds</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question1" value="Hugh Jackman">
+                        <span class="ml-2">Hugh Jackman</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question1" value="Robert Downey Jr.">
+                        <span class="ml-2">Robert Downey Jr.</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question1" value="Chris Evans">
+                        <span class="ml-2">Chris Evans</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="block text-black text-lg font-bold mb-2">2. What is Deadpool's real name?</p>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question2" value="Peter Parker">
+                        <span class="ml-2">Peter Parker</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question2" value="Logan">
+                        <span class="ml-2">Logan</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question2" value="Wade Wilson">
+                        <span class="ml-2">Wade Wilson</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question2" value="Bruce Wayne">
+                        <span class="ml-2">Bruce Wayne</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="block text-black text-lg font-bold mb-2">3. Which comic book company created Deadpool?</p>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question3" value="Marvel">
+                        <span class="ml-2">Marvel</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question3" value="DC">
+                        <span class="ml-2">DC</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question3" value="Image">
+                        <span class="ml-2">Image</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question3" value="Dark Horse">
+                        <span class="ml-2">Dark Horse</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="block text-black text-lg font-bold mb-2">4. What is Deadpool's primary weapon?</p>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question4" value="Hammer">
+                        <span class="ml-2">Hammer</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question4" value="Guns">
+                        <span class="ml-2">Guns</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question4" value="Bow and Arrow">
+                        <span class="ml-2">Bow and Arrow</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question4" value="Katanas">
+                        <span class="ml-2">Katanas</span>
+                    </label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <p class="block text-black text-lg font-bold mb-2">5. What year was the first Deadpool movie released?
+                </p>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question5" value="2014">
+                        <span class="ml-2">2014</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question5" value="2016">
+                        <span class="ml-2">2016</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question5" value="2018">
+                        <span class="ml-2">2018</span>
+                    </label>
+                </div>
+                <div class="mt-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio" name="question5" value="2020">
+                        <span class="ml-2">2020</span>
+                    </label>
+                </div>
+            </div>
+            <button type="button" onclick="checkAnswers()"
+                class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+
+        <div id="result-modal" class="modal my-auto flex content-center">
+            <div class="modal-content flex flex-row-reverse justify-around items-center">
+                <span class="close " onclick="closeModal()">&times;</span>
+                <p id="quiz-result"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-red-800 text-white text-center py-4">
+        <p>&copy; 2021 Deadpool Project</p>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

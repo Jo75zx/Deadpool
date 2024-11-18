@@ -1,0 +1,23 @@
+{
+  "name": "deadpool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "postcss src/tailwind.css -o build/css/tailwind.css --watch",
+    "build:css:prod": "NODE_ENV=production postcss src/tailwind.css -o build/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.13"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0"
+  }
+}
